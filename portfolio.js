@@ -1,25 +1,25 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Bhargav Katira",
+	title: "Hi all, I'm Bhargav",
 	description:
-		"A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-	resumeLink: "https://cv.hanzla.ga",
+		"A passionate Full Stack Web Developer App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.",
+	resumeLink: "https://drive.google.com/file/d/1yU4UAf6fjuwM4KgFrXXDZMUxJ9oWN8ws/view?usp=sharing",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "bhargavkatira",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/",
+	facebook: "https://www.facebook.com/bhargav.katira",
+	instagram: "https://www.instagram.com/___b.h.a.r.g.a.v___/",
+	twitter: "https://twitter.com/katira_bhargav",
+	github: "https://github.com/bhargavkatira",
+	linkedin: "https://www.linkedin.com/in/bhargav-katira-a934a2153/",
 };
 
 export const skillsSection = {
@@ -121,40 +121,33 @@ export const SkillBars = [
 	},
 	{
 		Stack: "Programming",
-		progressPercentage: "60",
+		progressPercentage: "70",
 	},
 ];
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		schoolName: "Masai School",
+		subHeader: "Full Stack Web Development",
+		duration: "July 2021 - Feb 2022",
+		desc: "learning MERN STACk AND BUILDING PROJECTS",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"Built authentication and integrated it with the frontend.t",
+			"Developed the landing page and footer.",
+			"Created a wish list for the users."
 		],
 	},
 	{
-		schoolName: "Harvard",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
+		schoolName: "Amity University",
+		subHeader: "Bachelor's Of Technology in Computer Science",
+		duration: "August 2017 - June 2021",
 		desc: "Participated in the research of XXX and published 3 papers.",
 		descBullets: [
 			"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 		],
 	},
-	{
-		schoolName: "Stanford University",
-		subHeader: "Bachelor of Science in Computer Science",
-		duration: "September 2013 - April 2017",
-		desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-		descBullets: [
-			"Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
-		],
-	},
+	
 ];
 
 export const experience = [
@@ -206,7 +199,7 @@ export const projects = [
 
 export const feedbacks = [
 	{
-		name: "Hassan Mehmood",
+		name: "Bhargav Katira",
 		feedback:
 			"We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Hanzla tauqeer has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
 	},
