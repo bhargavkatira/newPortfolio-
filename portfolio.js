@@ -132,7 +132,7 @@ export const educationInfo = [
 		duration: "July 2021 - Feb 2022",
 		desc: "learning MERN STACk AND BUILDING PROJECTS",
 		descBullets: [
-			"Built authentication and integrated it with the frontend.t",
+			"Built authentication and integrated it with the frontendt",
 			"Developed the landing page and footer.",
 			"Created a wish list for the users."
 		],
@@ -180,12 +180,17 @@ export const experience = [
 
 export const projects = [
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+		name: "HealthKart Clone",
+		desc:  [
+			"Built authentication and integrated it with the frontendt",
+			"Developed the landing page and footer.",
+			"Created a wish list for the users."
+		],
+		github: "https://github.com/bhargavkatira",
 		link: "https://example.com",
 	},
 	{
-		name: "lorem ipsum",
+		name: "",
 		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
 		github: "https://github.com/1hanzla100",
 	},
