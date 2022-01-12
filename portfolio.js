@@ -4,7 +4,7 @@ export const greetings = {
 	name: "Bhargav Katira",
 	title: "Hi all, I'm Bhargav",
 	description:
-		"A passionate Full Stack Web Developer App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.",
+		"I am a Tech Enthusiast, good at adapting to new technologies. My interests include full-stack developments, problem-solving, writing quality code and system design. I am an effective communicator, problem-solver and an aspiring leader in the making.",
 	resumeLink: "https://drive.google.com/file/d/1yU4UAf6fjuwM4KgFrXXDZMUxJ9oWN8ws/view?usp=sharing",
 };
 
@@ -143,8 +143,8 @@ export const educationInfo = [
 		duration: "August 2017 - June 2021",
 		desc: "Participated in the research of XXX and published 3 papers.",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"I have studied basic software engineering subjects like DS, Algorithm, DBMS, OS, AI etc.",
+			"Apart from this I have done courses as well as internship, learnt software development full stack development",
 		],
 	},
 	
@@ -186,19 +186,26 @@ export const projects = [
 			"Developed the landing page and footer.",
 			"Created a wish list for the users."
 		],
-		github: "https://github.com/bhargavkatira",
-		link: "https://example.com",
+		github: "https://github.com/bhargavkatira/construct-week1",
+		link: "https://heawealthy.netlify.app/",
 	},
 	{
-		name: "",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
+		name: "Amazon Prime",
+		desc:[
+			"Built the landing page and login Authentication.",
+			"Created the payment page and integrated it with the frontend and backend.",
+			"Developed the main page for Displaying the movies."	
+	],
+		github: "https://github.com/bhargavkatira/construct-week2",
+		link: "https://primeamazon.netlify.app/",
+		img:""
+
 	},
 	{
-		name: "lorem ipsum",
+		name: "Frontend Masters",
 		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
-		link: "https://example.com",
+		github: "https://github.com/front-end-master",
+		link: "https://primeamazon.netlify.app/",
 	},
 ];
 
