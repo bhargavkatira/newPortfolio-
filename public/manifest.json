@@ -5,12 +5,12 @@
   "description": "A passionate Full Stack Web Developer ",
     "icons": [
       {
-        "src": "../picture.png",
+        "src": "",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "../picture.png",
+        "src": "",
         "type": "image/png",
         "sizes": "512x512"
       }
