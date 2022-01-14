@@ -24,7 +24,12 @@ const GithubProfileCard = ({ prof }) => {
 							<p className="lead text-white mt-3">
 								DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY
 								INBOX IS OPEN FOR ALL
-							</p>							
+								<br />
+								<p>BHARGAVKATIRA@GMAIL.COM</p>
+								<p>+91 9692106728</p>
+							</p>
+							
+							
 							<SocialLinks />
 						</Col>
 					</Row>
