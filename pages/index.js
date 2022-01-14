@@ -39,12 +39,12 @@ export default function Home({ githubProfileData }) {
 					],
 				}}
 			/>
-			<Navigation />
-			<Greetings />
-			<Skills />
-			<Proficiency />
-			<Education />
-			<Projects />
+			<Navigation id="navbar"/>
+			<Greetings id="navbar"/>
+			<Skills id="about" />
+			
+			<Education id="project"/>
+			<Projects  id="project"/>
 			<GithubProfileCard prof={githubProfileData} />
 		</div>
 	);

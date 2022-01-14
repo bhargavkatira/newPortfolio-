@@ -1,4 +1,9 @@
 import emoji from "react-easy-emoji";
+import picture from  "./healthkart.png";
+import pictures from "./amazon.png";
+import picturess from "./front.png";
+
+
 
 export const greetings = {
 	name: "Bhargav Katira",
@@ -20,6 +25,7 @@ export const socialLinks = {
 	twitter: "https://twitter.com/katira_bhargav",
 	github: "https://github.com/bhargavkatira",
 	linkedin: "https://www.linkedin.com/in/bhargav-katira-a934a2153/",
+	email:"mailto:bhargavkatira@gmail.com"
 };
 
 export const skillsSection = {
@@ -181,29 +187,37 @@ export const experience = [
 export const projects = [
 	{
 		name: "HealthKart Clone",
+		img: picture,
 		desc:  [
 			"Built authentication and integrated it with the frontendt",
 			"Developed the landing page and footer.",
 			"Created a wish list for the users."
 		],
+		Tech:"Javascript | Node | LocalStorage",
 		github: "https://github.com/bhargavkatira/construct-week1",
 		link: "https://heawealthy.netlify.app/",
 	},
 	{
 		name: "Amazon Prime",
+		img:   pictures,
 		desc:[
 			"Built the landing page and login Authentication.",
 			"Created the payment page and integrated it with the frontend and backend.",
 			"Developed the main page for Displaying the movies."	
 	],
+	    Tech:"Javascript | Node | LocalStorage",
 		github: "https://github.com/bhargavkatira/construct-week2",
 		link: "https://primeamazon.netlify.app/",
-		img:""
 
 	},
 	{
 		name: "Frontend Masters",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+		img: picturess,
+		desc: [
+			"Created the payment page and integrated it with the frontend and backend.",
+			"Created the payment page and integrated it with the frontend and backend."
+		  ],
+		Tech:"Javascript | Node | LocalStorage",
 		github: "https://github.com/front-end-master",
 		link: "https://primeamazon.netlify.app/",
 	},

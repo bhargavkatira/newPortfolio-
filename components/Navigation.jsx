@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react";
-// import { Link } from "react-router-dom";
-
-import { greetings, socialLinks } from "../portfolio";
+import { greetings} from "../portfolio";
 import Headroom from "headroom.js";
-import Link from "next/link";
 import {
 	UncontrolledCollapse,
 	NavbarBrand,
@@ -56,7 +53,8 @@ const Navigation = () => {
 							onExiting={onExiting}
 							onExited={onExited}
 						>
-							<div className="navbar-collapse-header">
+							<div className="navbar-collapse-header"
+							>
 								<Row>
 									<Col className="collapse-brand" xs="6">
 										<h3
@@ -80,77 +78,53 @@ const Navigation = () => {
 							<Nav
 								className="align-items-lg-center ml-lg-auto"
 								navbar
+								
 							>
 								<NavItem>
 									<NavLink
-										rel="noopener"
-										aria-label="Facebook"
-										className="nav-link-icon"
-										href={socialLinks.facebook}
-										target="_blank"
+										href="#intro"			
 									>
-										<i className="fa fa-facebook-square" />
-										<span className="nav-link-inner--text d-lg-none ml-2">
-											Facebook
+										<i />
+										<span>
+											INTRO
 										</span>
 									</NavLink>
 								</NavItem>
 								<NavItem>
 									<NavLink
-										rel="noopener"
-										aria-label="Instagram"
-										className="nav-link-icon"
-										href={socialLinks.instagram}
-										target="_blank"
+										href="#about"	
 									>
-										<i className="fa fa-instagram" />
-										<span className="nav-link-inner--text d-lg-none ml-2">
-											Instagram
+										<i />
+										<span>
+											ABOUT
 										</span>
 									</NavLink>
 								</NavItem>
 								<NavItem>
 									<NavLink
-										rel="noopener"
-										aria-label="Twitter"
-										className="nav-link-icon"
-										href={socialLinks.twitter}
-										target="_blank"
+										href="#project"	
 									>
-										<i className="fa fa-twitter-square" />
-										<span className="nav-link-inner--text d-lg-none ml-2">
-											Twitter
+										<i />
+										<span>
+											PROJECT
 										</span>
 									</NavLink>
 								</NavItem>
 								<NavItem>
 									<NavLink
-										rel="noopener"
-										aria-label="Github"
-										className="nav-link-icon"
-										href={socialLinks.github}
-										target="_blank"
+										href="#contact"	
 									>
-										<i className="fa fa-github" />
-										<span className="nav-link-inner--text d-lg-none ml-2">
-											Github
+										<i />
+										<span>
+											CONTACT
 										</span>
 									</NavLink>
 								</NavItem>
-								<NavItem>
-									<NavLink
-										rel="noopener"
-										aria-label="Linkedin"
-										className="nav-link-icon"
-										href={socialLinks.linkedin}
-										target="_blank"
-									>
-										<i className="fa fa-linkedin" />
-										<span className="nav-link-inner--text d-lg-none ml-2">
-											Linkedin
-										</span>
-									</NavLink>
-								</NavItem>
+								
+								<NavItem></NavItem>
+									
+								
+								
 							</Nav>
 						</UncontrolledCollapse>
 					</Container>

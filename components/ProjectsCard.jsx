@@ -1,19 +1,28 @@
 import React from "react";
-
 import { Card, CardBody, Col, Button } from "reactstrap";
 
 import { Fade } from "react-reveal";
 
 const ProjectsCard = ({ data }) => {
+	console.log(data);
 	return (
 		<Col lg="6">
 			<Fade left duration={1000} distance="40px">
 				<Card className="shadow-lg--hover shadow mt-4">
+				<div id="project" style={{   width:"100%",
+								height:"300px",
+								backgroundImage:`url(${data.img?.src})`,
+								objectFit:"cover",
+								backgroundSize:"100% 100%",
+								backgroundRepeat:"no-repeat",
+						}}></div>
 					<CardBody>
-						<div className="d-flex px-3">
+						<div className="d-flex px-3" >
 							<div className="pl-4">
 								<h3>{data.name}</h3>
 								<p className="description mt-3">{data.desc}</p>
+								<p className="description mt-3">{data.Tech}</p>
+								
 								{data.github ? (
 									<Button
 										className="btn-icon"

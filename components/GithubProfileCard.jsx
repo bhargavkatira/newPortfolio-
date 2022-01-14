@@ -7,9 +7,9 @@ import Image from "next/image";
 
 const GithubProfileCard = ({ prof }) => {
 	return (
-		<Card className="section-lg bg-gradient-info shadow-lg border-0">
-			<Container className="">
-				<div className="p-2">
+		<Card className="section-lg bg-gradient-info shadow-lg border-0" >
+			<Container className="" id="contact">
+				<div className="p-2" >
 					<Row className="">
 						<Col className="order-lg-2" lg="4">
 							<img
