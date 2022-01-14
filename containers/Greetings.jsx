@@ -1,9 +1,8 @@
 import React, { useEffect } from "react";
 import { greetings } from "../portfolio";
+import Bhargav from "../Bhargav_edit.png"
 
 import { Button, Container, Row, Col } from "reactstrap";
-
-import GreetingLottie from "../components/DisplayLottie";
 import SocialLinks from "../components/SocialLinks";
 
 const Greetings = () => {
@@ -11,11 +10,12 @@ const Greetings = () => {
 		document.documentElement.scrollTop = 0;
 		document.scrollingElement.scrollTop = 0;
 	});
+	console.log(Bhargav);
 	return (
 		<main>
-			<div className="position-relative" id="intro">
-				<section className="section section-lg section-shaped pb-250">
-					<div className="shape shape-style-1 bg-gradient-info">
+			<div className="position-relative" id="intro" >
+				<section className="section section-lg section-shaped pb-250" >
+					<div className="shape shape-style-1 bg-gradient-info" >
 						<span />
 						<span />
 						<span />
@@ -26,7 +26,7 @@ const Greetings = () => {
 						<span />
 						<span />
 					</div>
-					<Container className="py-lg-md d-flex">
+					<Container className="py-lg-md d-flex" >
 						<div className="col px-0">
 							<Row>
 								<Col lg="6">
@@ -54,7 +54,14 @@ const Greetings = () => {
 									</div>
 								</Col>
 								<Col lg="6">
-									<GreetingLottie animationPath="/lottie/coding.json" />
+								<img src={(`${Bhargav.src}`)} 
+								     style={{
+									 clipPath: "circle(40% at 50% 50%)",
+									 objectFit:"cover",
+									 backgroundSize:"100% 100%",
+									 border:"2px solid red",
+									 width:"100%",
+							    }}/>
 								</Col>
 							</Row>
 						</div>

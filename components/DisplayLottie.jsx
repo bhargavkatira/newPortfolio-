@@ -1,5 +1,6 @@
 import React from "react";
 import Lottie from "react-lottie";
+import Bhargav from "../Bhargav_edit.png"
 
 const GreetingLottie = ({ animationPath }) => {
 	const defaultOptions = {
