@@ -147,7 +147,7 @@ export const educationInfo = [
 		schoolName: "Amity University",
 		subHeader: "Bachelor's Of Technology in Computer Science",
 		duration: "August 2017 - June 2021",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		desc: "Participated in Major Events of Research",
 		descBullets: [
 			"I have studied basic software engineering subjects like DS, Algorithm, DBMS, OS, AI etc.",
 			"Apart from this I have done courses as well as internship, learnt software development full stack development",
@@ -218,7 +218,7 @@ export const projects = [
 			"Created the payment page and integrated it with the frontend and backend."
 		  ],
 		Tech:"Javascript | Node | LocalStorage",
-		github: "https://github.com/front-end-master",
+		github: "https://github.com/front-en.d-master",
 		link: "https://primeamazon.netlify.app/",
 	},
 ];

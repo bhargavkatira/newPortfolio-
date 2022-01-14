@@ -82,7 +82,10 @@ const Navigation = () => {
 							>
 								<NavItem>
 									<NavLink
-										href="#intro"			
+										href="#intro"	
+										style ={{
+											scrollBehavior:" smooth",
+										}}		
 									>
 										<i />
 										<span>
@@ -93,6 +96,9 @@ const Navigation = () => {
 								<NavItem>
 									<NavLink
 										href="#about"	
+										style ={{
+											scrollBehavior:" smooth",
+										}}
 									>
 										<i />
 										<span>
@@ -103,6 +109,9 @@ const Navigation = () => {
 								<NavItem>
 									<NavLink
 										href="#project"	
+										style ={{
+											scrollBehavior:" smooth",
+										}}
 									>
 										<i />
 										<span>
@@ -113,6 +122,9 @@ const Navigation = () => {
 								<NavItem>
 									<NavLink
 										href="#contact"	
+										style ={{
+											scrollBehavior:" smooth",
+										}}
 									>
 										<i />
 										<span>
