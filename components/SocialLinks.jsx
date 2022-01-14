@@ -76,7 +76,7 @@ const SocialLinks = () => {
 				aria-label="gmail"
 			>
 				<span className="btn-inner--icon">
-				<i class="fa fa-envelope-open"/>
+				<i className="fa fa-envelope-open"/>
 				</span>
 			</Button>
 		</div>
