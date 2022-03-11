@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 const Navigation = dynamic(() => import("../components/Navigation"));
 const Greetings = dynamic(() => import("../containers/Greetings"));
 const Skills = dynamic(() => import("../containers/Skills"));
-const Proficiency = dynamic(() => import("../containers/Proficiency"));
 const Education = dynamic(() => import("../containers/Education"));
 const Projects = dynamic(() => import("../containers/Projects"));
 const GithubProfileCard = dynamic(() =>
@@ -39,12 +38,11 @@ export default function Home({ githubProfileData }) {
 					],
 				}}
 			/>
-			<Navigation id="navbar"/>
-			<Greetings id="navbar"/>
-			<Skills id="about" />
-			
-			<Education id="project"/>
-			<Projects  id="project"/>
+			<Navigation />
+			<Greetings />
+			<Skills/>
+			<Education />
+			<Projects />
 			<GithubProfileCard prof={githubProfileData} />
 		</div>
 	);
